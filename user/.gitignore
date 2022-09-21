@@ -1,0 +1,28 @@
+# Grav Specific
+accounts/*
+!accounts/.*
+data/*
+!data/.*
+# !data/flex-objects
+plugins/*
+!plugins/.*
+security.yaml
+versions.yaml
+
+# remove if you will make the theme part of your project
+themes/*
+!themes/.*
+
+# OS Generated
+.DS_Store*
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*Zone.Identifier
+
+# phpstorm
+.idea/*
