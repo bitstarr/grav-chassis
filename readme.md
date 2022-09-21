@@ -1,4 +1,6 @@
-# chassis
+# chassis theme test track
+
+testing [chassis theme](https://github.com/bitstarr/grav-theme-chassis/)
 
 ## Installation
 
