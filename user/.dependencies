@@ -1,4 +1,8 @@
 git:
+    chassis:
+        url: https://github.com/bitstarr/grav-theme-chassis/
+        path: user/themes/chassis
+        branch: develop
     problems:
         url: https://github.com/getgrav/grav-plugin-problems
         path: user/plugins/problems
