@@ -4,6 +4,7 @@ accounts/*
 data/*
 !data/.*
 # !data/flex-objects
+images/multiavatar/*
 plugins/*
 !plugins/.*
 security.yaml

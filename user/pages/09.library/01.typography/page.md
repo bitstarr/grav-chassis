@@ -1,6 +1,5 @@
 ---
 title: Typography
-hide_breadcrumbs: false
 hero:
     image: farn.jpg
     headline: 'This is a hero image with overlayed Text'
@@ -133,3 +132,13 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit.<span lang="fr"> <q>Tot
 !!! Level 3
 
 !!!! Level 4
+
+## Image with Caption
+
+The following image will have a title. If Image Captions Plugin is installed, it will be made a figure with caption. You will need to add the class `exhibit` though.
+
+![My Image Alt Text](../../_heros/farn.jpg?classes=exhibit "My Image Caption")
+
+```md
+![My Image Alt Text](farn.jpg?classes=exhibit "My Image Caption")
+```
