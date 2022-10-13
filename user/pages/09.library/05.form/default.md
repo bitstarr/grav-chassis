@@ -5,7 +5,7 @@ form:
   name: contact-form
   classes: form
   fields:
-    - name: name
+    name:
       id: field-name
       label: Name
       placeholder: Ihr Name
@@ -15,7 +15,7 @@ form:
       validate:
         required: true
 
-    - name: email
+    email:
       id: field-email
       label: E-Mail
       placeholder: Ihre E-Mail-Adresse
@@ -24,7 +24,7 @@ form:
       validate:
         required: true
 
-    - name: kdnr
+    kdnr:
       id: field-kdnr
       label: Kundennummer
       placeholder: Ihre Kundennummer
@@ -32,7 +32,7 @@ form:
       type: text
       outerclasses: levitate
 
-    - name: subject
+    subject:
       id: field-subject
       label: Betreff
       type: select
@@ -47,7 +47,18 @@ form:
         'Störung': 'Störung'
         'Sonstige Themen': 'Sonstige Themen'
 
-    - name: text
+    weather:
+      outerclasses: levitate text-input
+      type: radio
+      label: 'Wie ist das Wetter?'
+      default: nice
+      options:
+        nice: Schön
+        average: 'Geht so'
+        meh: Meh
+        disaster: 'Katastrophal'
+
+    text:
       id: field-text
       label: Nachricht
       placeholder: Ihre Nachricht an uns
@@ -57,9 +68,9 @@ form:
       validate:
         required: true
 
-    - name: personality
+    personality:
       id: field-personality
-      outerclasses: text-input
+      outerclasses: levitate text-input
       label: 'Anti-Spam-Frage: Wie lautet der Vorname von Robert Koch?'
       type: radio
       options:
@@ -71,7 +82,7 @@ form:
         pattern: "^robert$"
         message: Bei der Anti-Spam-Frage versagt.
 
-    - name: dsgvo
+    dsgvo:
       id: field-dsgvo
       label: 'Ich stimme den [Datenschutzrichtlinien](/datenschutz) zu'
       type: checkbox
@@ -79,21 +90,13 @@ form:
       validate:
         required: true
 
-    - name: weather
-      type: radio
-      label: 'Wie ist das Wetter?'
-      default: nice
-      options:
-        nice: Schön
-        meh: 'Geht so'
-        disaster: 'Katastrophal'
-
   buttons:
-      - type: submit
-        value: Senden
+    submit:
+      type: submit
+      value: Senden
 
   process:
-    # - email:
+    # email:
     #   from: "{{ form.value.email }}"
     #   from_name: "{{ form.value.name }}"
     #   to: "{{ config.plugins.email.to }}"
@@ -101,12 +104,12 @@ form:
     #   subject: "Anfrage über Kontaktformular: {{ form.value.subject }}"
     #   body: "{% include 'email/contact.txt.twig' %}"
     #   content_type: 'text/plain'
-    - save:
-        fileprefix: contact-
-        dateformat: Ymd-His-u
-        extension: txt
-        body: "{% include 'forms/data.txt.twig' %}"
-    - message: Danke für Ihre Nachricht
-    # - display: thankyou
+    save:
+      fileprefix: contact-
+      dateformat: Ymd-His-u
+      extension: txt
+      body: "{% include 'forms/data.txt.twig' %}"
+    message: Danke für Ihre Nachricht
+    # display: thankyou
 ---
 {% include "forms/form.html.twig" with { form: forms('contact-form') } %}

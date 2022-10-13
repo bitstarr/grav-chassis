@@ -3,6 +3,7 @@ title: Typography
 hero:
     image: farn.jpg
     headline: 'This is a hero image with overlayed Text'
+    author: Unsplash/Something
 ---
 
 Es ist ohne Zweifel äußerst schwierig, auch nur eine Vermuthung darüber auszuprechen, durch welche Abstufungen, zumal in durchbrochenen und erlöschenden Gruppen organischer Wesen, die bedeutend durch Aussterben gelitten haben, manche Bildungen vervollkommnet worden sind; aber wir sehen so viele befremdende Abstufungen in der Natur, daß wir äußerst vorsichtig sein müssen zu sagen, daß irgend ein Organ oder Instinct oder ein ganzes Gebilde nicht durch stufenweise Fortschritte zu seiner gegenwärtigen Beschaffenheit gelangt sein könne.
