@@ -1,0 +1,3 @@
+[submodule "user/plugins/company-details"]
+	path = user/plugins/company-details
+	url = git@github.com:bitstarr/grav-plugin-company-details.git

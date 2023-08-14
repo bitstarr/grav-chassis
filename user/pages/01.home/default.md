@@ -1,6 +1,8 @@
 ---
 title: Home
 body_classes: dummy-page
+metadata:
+  description: 'test'
 ---
 
 # Say Hello to Grav!

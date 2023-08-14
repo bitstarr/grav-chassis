@@ -83,3 +83,8 @@ git:
         url: https://github.com/getgrav/grav-plugin-devtools
         path: user/plugins/devtools
         branch: master
+    eventlist:
+        url: https://github.com/bitstarr/grap-plugin-eventlist
+        path: user/plugins/eventlist
+        branch: main
+
