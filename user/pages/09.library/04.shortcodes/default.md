@@ -3,7 +3,7 @@ title: Shortcodes
 ---
 These Shortcodes come with this theme.
 
-### caption
+## caption
 
 ```md
 [raw][caption class="image" caption="Quelle: Unsplash.com"]

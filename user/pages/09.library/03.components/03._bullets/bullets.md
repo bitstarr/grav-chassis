@@ -5,17 +5,17 @@ bullets:
     -
         label: Revolution
         url: /
-        icon: alert
+        icon: facebook
         classes: null
     -
         label: Evolution
         url: /
-        icon: home
+        icon: twitter
         classes: null
     -
         label: Exposition
         url: /
-        icon: mail
+        icon: mastodon
         classes: null
 show_title: '1'
 layout:
