@@ -27,6 +27,10 @@ git:
         url: https://github.com/getgrav/grav-plugin-admin
         path: user/plugins/admin
         branch: master
+    admin-addon-media-metadata:
+        url: https://github.com/clivebeckett/grav-plugin-admin-addon-media-metadata
+        path: user/plugins/admin-addon-media-metadata
+        branch: master
     draft-preview:
         url: https://github.com/bitstarr/grav-plugin-draft-preview
         path: user/plugins/draft-preview
@@ -84,7 +88,11 @@ git:
         path: user/plugins/devtools
         branch: master
     eventlist:
-        url: https://github.com/bitstarr/grap-plugin-eventlist
+        url: https://github.com/bitstarr/grav-plugin-eventlist
         path: user/plugins/eventlist
+        branch: main
+    news:
+        url: https://github.com/bitstarr/grav-plugin-news
+        path: user/plugins/news
         branch: main
 

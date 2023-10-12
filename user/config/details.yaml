@@ -1,16 +1,16 @@
 social:
   - title: Facebook
     icon: facebook
-    url: http://www.facebook.com/XX
+    url: http://facebook.com/XX
   - title: Instagram
     icon: instagram
-    url: https://www.instagram.com/XX
-  - title: Twitter
-    icon: twitter
-    url: http://www.twitter.com/XX
+    url: https://instagram.com/XX
+  - title: Mastodon
+    icon: mastodon
+    url: http://mastodon.social/XX
   - title: Xing
     icon: xing
-    url: http://www.xing.com/XX
+    url: http://xing.com/XX
   - title: YouTube
     icon: youtube
-    url: https://www.youtube.com/XX
+    url: https://youtube.com/XX

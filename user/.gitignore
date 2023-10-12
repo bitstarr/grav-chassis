@@ -3,7 +3,7 @@ accounts/*
 !accounts/.*
 data/*
 !data/.*
-# !data/flex-objects
+!data/flex-objects
 images/multiavatar/*
 plugins/*
 !plugins/.*
