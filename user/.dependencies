@@ -83,6 +83,10 @@ git:
         url: https://github.com/getgrav/grav-plugin-breadcrumbs
         path: user/plugins/breadcrumbs
         branch: master
+    langswitcher:
+        url: https://github.com/getgrav/grav-plugin-langswitcher
+        path: user/plugins/langswitcher
+        branch: master
     devtools:
         url: https://github.com/getgrav/grav-plugin-devtools
         path: user/plugins/devtools
