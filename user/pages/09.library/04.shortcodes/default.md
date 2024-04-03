@@ -1,6 +1,8 @@
 ---
 title: Shortcodes
+media_order: topper03.jpg
 ---
+
 These Shortcodes come with this theme.
 
 ## caption
@@ -11,8 +13,8 @@ These Shortcodes come with this theme.
 [/caption][/raw]
 ```
 
-[caption class="image" caption="Quelle: Unsplash.com"]
-![](../../_heros/farn.jpg)
+[caption class="image" caption="Topper Hartley, Maine-Coon"]
+![](topper03.jpg)
 [/caption]
 
 Adds a caption (via HTML figure+figcaption) to your media (image, video, embed, audio).
@@ -73,6 +75,8 @@ Wrap text in a different language semantically, so screenreader can interpret an
 [video id="https://www.youtube.com/watch?v=Uuad8V5f_QA"]
 [video id=141358 type=vimeo][/raw]
 ```
+
+<!-- [video="https://www.youtube.com/watch?v=OrSAkcewEKw"] -->
 
 Embed a video from YouTube or Vimeo with a privacy alert. The video will only load (and request external resources) if the user affirms (once or for the whole site).
 

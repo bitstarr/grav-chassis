@@ -1,0 +1,10 @@
+---
+title: Abänderung im Naturzustande.
+---
+Ehe wir von den Principien, zu welchen wir im vorigen Capitel gelangten, Anwendung auf die organischen Wesen im Naturzustande machen, müssen wir kurz untersuchen, in wiefern diese letzten veränderlich sind oder nicht. Um diesen Gegenstand nur einigermaßen eingehend zu behandeln, müßte ich ein langes Verzeichnis trockener Thatsachen geben; doch will ich diese für ein künftiges Werk versparen.
+
+Auch will ich nicht die verschiedenen Definitionen erörtern, welche man von dem Worte „Species“ gegeben hat. Keine derselben hat bis jetzt alle Naturforscher befriedigt; doch weiß jeder Naturforscher ungefähr, was er meint, wenn er von einer Species spricht. Allgemein schließt die Bezeichnung das unbekannte Element eines besonderen Schöpfungsactes ein.
+
+Der Ausdruck „Varietät“ ist fast eben so schwer zu definiren; gemeinschaftliche Abstammung ist indeß hier meistens einbedungen, obwohl sie selten bewiesen werden kann. Auch findet sich, was man Monstrositäten nennt; sie gehen aber stufenweise in Varietäten über. Unter einer „Monstrosität“ versteht man nach meiner Meinung irgend eine beträchtliche Abweichung der Structur, welche der Art meistens nachtheilig oder doch nicht nützlich ist. Einige Schriftsteller gebrauchen noch den Ausdruck „Variation“ in einem technischen Sinne, um Abänderungen zu bezeichnen, welche directe Folge äußerer Lebensbedingungen sind, und die „Variationen“ dieser Art gelten nicht für erblich.
+
+Doch, wer kann behaupten, daß die zwerghafte Beschaffenheit der Conchylien im Brackwasser des Baltischen Meeres, oder die Zwergpflanzen auf den Höhen der Alpen, oder der dichtere Pelz eines Thieres in höheren Breiten nicht in einigen Fällen auf wenigstens einige Generationen vererbt werden? und in diesem Falle würde man, glaube ich, die Form eine „Varietät“ nennen. 

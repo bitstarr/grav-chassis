@@ -5,16 +5,9 @@ hero:
     image: 'photo-1439792675105-701e6a4ab6f0.jpg'
     image_alt: 'Random Unsplash Image'
 media_order: photo-1439792675105-701e6a4ab6f0.jpg
-
-admin-addon-media-metadata:
-  metadata_form:
-    fields:
-      -
-        type: checkbox
-        label: 'Yet another field'
-        name: checkMe
-        value: check
 ---
+
+This is in English.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies tristique nulla et mattis. Phasellus id massa eget nisl congue blandit sit amet id ligula. Praesent et nulla eu augue tempus sagittis. Mauris faucibus nibh et nibh cursus in vestibulum sapien egestas. Curabitur ut lectus tortor. Sed ipsum eros, egestas ut eleifend non, elementum vitae eros.
 

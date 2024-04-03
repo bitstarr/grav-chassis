@@ -1,9 +1,10 @@
 ---
 title: Typography
 hero:
-    image: farn.jpg
+    image: topper11.jpg
     headline: 'This is a hero image with overlayed Text'
-    author: 'Unsplash/Something Something'
+    author: 'Foto: Sebastian Laube'
+media_order: topper11.jpg
 ---
 
 Es ist ohne Zweifel äußerst schwierig, auch nur eine Vermuthung darüber auszuprechen, durch welche Abstufungen, zumal in durchbrochenen und erlöschenden Gruppen organischer Wesen, die bedeutend durch Aussterben gelitten haben, manche Bildungen vervollkommnet worden sind; aber wir sehen so viele befremdende Abstufungen in der Natur, daß wir äußerst vorsichtig sein müssen zu sagen, daß irgend ein Organ oder Instinct oder ein ganzes Gebilde nicht durch stufenweise Fortschritte zu seiner gegenwärtigen Beschaffenheit gelangt sein könne.
@@ -138,8 +139,8 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit.<span lang="fr"> <q>Tot
 
 The following image will have a title. If Image Captions Plugin is installed, it will be made a figure with caption. You will need to add the class `exhibit` though.
 
-![My Image Alt Text](../../_heros/farn.jpg?classes=exhibit "My Image Caption")
+![My Image Alt Text](topper11.jpg?classes=exhibit "My Image Caption")
 
 ```md
-![My Image Alt Text](farn.jpg?classes=exhibit "My Image Caption")
+![My Image Alt Text](topper11.jpg?classes=exhibit "My Image Caption")
 ```

@@ -1,14 +1,10 @@
 ---
-title: Bring Your Own Device
-date: 18-01-2018 19:55
+title: 'Bring Your Own Device'
+date: '18-01-2018 19:55'
 hero:
-    image: https://picsum.photos/960/540?r=device
-    image_alt: Random Unsplash Image
-taxonomy:
-    category: hardware
-    tag:
-        - photography
-        - devices
+    image: 'https://picsum.photos/960/540?r=device'
+    image_alt: 'Random Unsplash Image'
+media_order: tumblr_pmxr86bDwV1r4gsiio1_1280.png
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies tristique nulla et mattis. Phasellus id massa eget nisl congue blandit sit amet id ligula. Praesent et nulla eu augue tempus sagittis. Mauris faucibus nibh et nibh cursus in vestibulum sapien egestas. Curabitur ut lectus tortor. Sed ipsum eros, egestas ut eleifend non, elementum vitae eros.

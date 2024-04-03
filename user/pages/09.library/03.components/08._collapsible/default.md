@@ -1,6 +1,7 @@
 ---
 title: Collapsible
 ---
+
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quasi, dolore nesciunt corrupti adipisci itaque impedit laudantium amet, rerum laborum quia cum fugit, exercitationem laboriosam expedita? Ea sint consequuntur dolore.
 
 !> [span] About Charles Darwin1
