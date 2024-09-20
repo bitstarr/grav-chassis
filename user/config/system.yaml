@@ -14,8 +14,9 @@ pages:
     process_twig: true
 
 session:
-  initialize: false
   name: grav-site
+  enabled: true
+  split: false
 
 languages:
   supported: [ de, en ]

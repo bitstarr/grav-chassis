@@ -1,1 +1,5 @@
 news_per_page: 5
+feed:
+  limit: 10
+  title: 'Chassis Feed'
+  description: ''
