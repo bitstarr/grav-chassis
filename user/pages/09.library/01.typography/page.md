@@ -19,7 +19,7 @@ Autem voluptate obcaecati vitae necessitatibus, adipisci unde. Sed corporis beat
 
 ---
 
-Incidunt libero natus eaque. Voluptas ut totam tempora rerum eligendi, magnam nesciunt id. Exercitationem ab recusandae vitae ipsum at iste officiis optio accusamus asperiores. Natus quisquam deleniti dicta corporis beatae.
+Incidunt libero natus eaque. Voluptas ut totam tempora rerum eligendi, magnam nesciunt id. Exercitationem ab recusandae vitae <a href="https://sebastianlaube.de">recusandae ex</a> ipsum at iste officiis optio accusamus asperiores. Natus quisquam deleniti dicta corporis beatae.
 
 ```
 q { quotes: '\201E' '\201C' '\201A' '\2018'; }
@@ -27,7 +27,7 @@ q::before { content: open-quote; }
 q::after { content: close-quote; }
 ```
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aspernatur distinctio numquam possimus nobis quia deleniti ipsum consectetur consequatur molestiae dolores quisquam voluptate, maxime id rerum facilis explicabo ad natus!
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aspernatur distinctio `numquam possimus` nobis quia deleniti ipsum consectetur consequatur molestiae dolores quisquam voluptate, maxime id rerum facilis explicabo ad natus!
 
 ### Third Level Headline
 
@@ -54,6 +54,8 @@ Wir würden außer Stande sein, eine Art als die Stammart einer oder mehrer ande
 
 <a href="#" class="button">Ein Link als Button</a>
 <button class="button">Ein echter Button</button>
+
+[Button (Link) mit Markdown](/?classes=button) [Button (Link) mit Markdown](/?classes=button,is-alt) [Button (Link) mit Markdown](/?classes=button,is-ghost) [Button (Link) mit Markdown](/?classes=button,is-small) [Button (Link) mit Markdown](/?classes=button,is-quiet)
 
 ## Quote
 
@@ -139,7 +141,7 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit.<span lang="fr"> <q>Tot
 
 The following image will have a title. If Image Captions Plugin is installed, it will be made a figure with caption. You will need to add the class `exhibit` though.
 
-![My Image Alt Text](topper11.jpg?classes=exhibit "My Image Caption")
+![My Image Alt Text](topper11.jpg?classes=exhibit "Topper Harley the faboulus Maine Coon")
 
 ```md
 ![My Image Alt Text](topper11.jpg?classes=exhibit "My Image Caption")

@@ -1,4 +1,4 @@
 ---
-title: Akordeon
+title: Akkordeon
 ---
 
