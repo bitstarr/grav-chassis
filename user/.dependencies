@@ -48,9 +48,9 @@ git:
         path: user/plugins/feed
         branch: master
     twig-extensions:
-        url: https://github.com/Perlkonig/grav-plugin-twig-extensions
+        url: https://github.com/bitstarr/grav-plugin-twig-extensions
         path: user/plugins/twig-extensions
-        branch: master
+        branch: main
     pagination:
         url: https://github.com/getgrav/grav-plugin-pagination
         path: user/plugins/pagination

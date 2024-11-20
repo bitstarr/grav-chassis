@@ -113,3 +113,11 @@ form:
     # display: thankyou
 ---
 {% include "forms/form.html.twig" with { form: forms('contact-form') } %}
+
+Test eines Button: <a href="#foo" class="button">[icon=mail] Kontakt</a>
+
+<a href="#foo" class="button">[icon=mail] Kontakt</a>
+<a href="#foo" class="button is-small">[icon=mail] Kontakt</a>
+<a href="#foo" class="button is-alt">[icon=mail] Kontakt</a>
+<a href="#foo" class="button is-quiet">[icon=mail] Kontakt</a>
+<a href="#foo" class="button is-ghost">[icon=mail] Kontakt</a>
