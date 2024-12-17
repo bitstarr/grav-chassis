@@ -8,7 +8,6 @@ form:
     name:
       id: field-name
       label: Name
-      placeholder: Ihr Name
       autocomplete: on
       type: text
       outerclasses: levitate
@@ -18,7 +17,6 @@ form:
     email:
       id: field-email
       label: E-Mail
-      placeholder: Ihre E-Mail-Adresse
       type: email
       outerclasses: levitate
       validate:
@@ -27,10 +25,10 @@ form:
     kdnr:
       id: field-kdnr
       label: Kundennummer
-      placeholder: Ihre Kundennummer
-      autocomplete: on
       type: text
+      autocomplete: on
       outerclasses: levitate
+      # help: Findet sich auf der Rechnung
 
     subject:
       id: field-subject
@@ -41,6 +39,7 @@ form:
       validate:
         required: true
       options:
+        '': 'Bitte auswählen'
         'Frage zu einem Produkt': 'Frage zu einem Produkt'
         'Frage zu Vertrag/Rechnung': 'Frage zu Vertrag/Rechnung'
         'Frage zum Fluxkompensator': 'Frage zum Fluxkompensator'
@@ -58,10 +57,20 @@ form:
         meh: Meh
         disaster: 'Katastrophal'
 
+    skills:
+      outerclasses: levitate text-input rows
+      type: checkboxes
+      label: 'Was kannst du?'
+      default: nice
+      options:
+        html: HTML
+        css: CSS
+        js: JengaScript
+        shit: TechBro Frameworks®
+
     text:
       id: field-text
       label: Nachricht
-      placeholder: Ihre Nachricht an uns
       type: textarea
       outerclasses: levitate
       rows: 5
@@ -112,6 +121,8 @@ form:
     message: Danke für Ihre Nachricht
     # display: thankyou
 ---
+Formular mit vielen Typen.
+
 {% include "forms/form.html.twig" with { form: forms('contact-form') } %}
 
 Test eines Button: <a href="#foo" class="button">[icon=mail] Kontakt</a>
