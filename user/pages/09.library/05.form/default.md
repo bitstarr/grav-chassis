@@ -10,7 +10,7 @@ form:
       label: Name
       autocomplete: on
       type: text
-      outerclasses: levitate
+      outerclasses: encapsulate
       validate:
         required: true
 
@@ -18,7 +18,7 @@ form:
       id: field-email
       label: E-Mail
       type: email
-      outerclasses: levitate
+      outerclasses: encapsulate
       validate:
         required: true
 
@@ -27,7 +27,7 @@ form:
       label: Kundennummer
       type: text
       autocomplete: on
-      outerclasses: levitate
+      outerclasses: encapsulate
       # help: Findet sich auf der Rechnung
 
     subject:
@@ -35,7 +35,7 @@ form:
       label: Betreff
       type: select
       size: long
-      outerclasses: levitate
+      outerclasses: encapsulate
       validate:
         required: true
       options:
@@ -47,7 +47,7 @@ form:
         'Sonstige Themen': 'Sonstige Themen'
 
     weather:
-      outerclasses: levitate text-input
+      outerclasses: encapsulate inputpeel
       type: radio
       label: 'Wie ist das Wetter?'
       default: nice
@@ -58,7 +58,7 @@ form:
         disaster: 'Katastrophal'
 
     skills:
-      outerclasses: levitate text-input rows
+      outerclasses: encapsulate inputpeel rows
       type: checkboxes
       label: 'Was kannst du?'
       default: nice
@@ -72,14 +72,14 @@ form:
       id: field-text
       label: Nachricht
       type: textarea
-      outerclasses: levitate
+      outerclasses: encapsulate
       rows: 5
       validate:
         required: true
 
     personality:
       id: field-personality
-      outerclasses: levitate text-input
+      outerclasses: encapsulate inputpeel
       label: 'Anti-Spam-Frage: Wie lautet der Vorname von Robert Koch?'
       type: radio
       options:

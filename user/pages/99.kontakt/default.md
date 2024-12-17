@@ -15,7 +15,7 @@ form:
       placeholder: THEME_C.FORM.FIELD.NAME_PH
       autocomplete: on
       type: text
-      outerclasses: levitate
+      outerclasses: encapsulate
       validate:
         required: true
 
@@ -24,7 +24,7 @@ form:
       label: THEME_C.FORM.FIELD.EMAIL
       placeholder: THEME_C.FORM.FIELD.EMAIL_PH
       type: email
-      outerclasses: levitate
+      outerclasses: encapsulate
       validate:
         required: true
 
@@ -33,21 +33,21 @@ form:
       label: THEME_C.FORM.FIELD.PHONE
       placeholder: THEME_C.FORM.FIELD.PHONE_PH
       type: text
-      outerclasses: levitate
+      outerclasses: encapsulate
 
     text:
       id: field-text
       label: THEME_C.FORM.FIELD.MESSAGE
       placeholder: THEME_C.FORM.FIELD.MESSAGE_PH
       type: textarea
-      outerclasses: levitate
+      outerclasses: encapsulate
       rows: 4
       validate:
         required: true
 
     personality:
       id: field-personality
-      outerclasses: text-input
+      outerclasses: inputpeel
       label: THEME_C.FORM.FIELD.SPAM_Q
       type: radio
       options:
