@@ -96,6 +96,3 @@ Einsteinstraße 12<br>
 
 Telefon: (+49) 371 / 12 34 56<br>
 E-Mail: [email link=true]info@domain.de[/email]
-
-## Direkt Kontakt aufnehmen
-{% include "forms/form.html.twig" with { form: forms('kontakt') } %}
