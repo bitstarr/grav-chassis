@@ -68,6 +68,23 @@ form:
         js: JengaScript
         shit: TechBro Frameworks®
 
+    file:
+      label: THEME_C.JOBS.CV
+      type: file
+      multiple: false
+      filesize: 4
+      destination: tmp/uploads
+      # destination: self@
+      avoid_overwriting: true
+      accept:
+        - application/pdf
+        - application/x-pdf
+        - text/plain
+        - image/jpeg
+        - application/msword
+        - application/vnd.openxmlformats-officedocument.wordprocessingml.document
+        - application/vnd.oasis.opendocument.text
+        
     text:
       id: field-text
       label: Nachricht

@@ -36,6 +36,3 @@ accounts:
   avatar: multiavatar
 
 pwd_regex: '^[ -~]{8,}$'
-
-env:
-  state: production

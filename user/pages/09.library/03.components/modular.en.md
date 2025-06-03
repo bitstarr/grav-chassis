@@ -1,5 +1,3 @@
 ---
-title: Components
-content:
-    items: '@self.modular'
+title: Modulars
 ---
